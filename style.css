@@ -118,6 +118,23 @@ h2{
 .cards{
     display: flex;
     justify-content: space-around;
+    gap: 2rem;
+}
+
+.card-green, .card-blue, .card-orange{
+    width: 32%;
+    height: 20vh;
+    border-radius: 1.5rem;
+}
+
+.card-green{
+    background: var(--bg-card-green);
+}
+.card-blue{
+    background: var(--bg-card-blue);
+}
+.card-orange{
+    background: var(--bg-card-orange);
 }
 
 /* ----------- Gráficos - div 1: ------------ */
