@@ -2,6 +2,11 @@
 
 :root{
     --white: #ffffff;
+    --text-light: #eff3ff;
+    --white-opacidade01: rgb(255, 255, 255, 0.1);
+    --white-opacidade05: rgb(255, 255, 255, 0.5);
+    --white-opacidade07: rgb(255, 255, 255, 0.7);
+
     --bg-color: #fafbff;
 
     /* nav - parte 1: */
@@ -115,26 +120,135 @@ h2{
 }
 
 /* ----------------- Cards: ----------------- */
+/* "container" - cards */
 .cards{
     display: flex;
     justify-content: space-around;
     gap: 2rem;
 }
 
+/* text - cards */
+.cards span{
+    color: var(--text-light);
+    color: var(--white-opacidade07);
+    font-weight: 600;
+}
+
+.p1{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--text-light);
+}
+
+.cards h1{
+    font-size: 2.5rem;
+    color: var(--text-light);
+}
+
+.p2{
+    font-size: 1.4rem;
+    color: var(--white-opacidade05);
+    font-weight: 500;
+}
+
+.text-card{
+    height: 14vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+}
+
+/* Cards green, blue e orange */
 .card-green, .card-blue, .card-orange{
     width: 32%;
-    height: 20vh;
+    height: 14vh;
     border-radius: 1.5rem;
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
 }
 
 .card-green{
     background: var(--bg-card-green);
+    box-shadow: 3px 3px 20px lightblue;
 }
+.card-green .circle1{
+    background: var(--gradient1-card-green);
+}
+.card-green .circle2{
+    background: var(--gradient2-card-green);
+}
+
 .card-blue{
     background: var(--bg-card-blue);
+    box-shadow: 3px 3px 20px lightblue;
 }
+.card-blue .circle1{
+    background: var(--gradient1-card-blue);
+}
+.card-blue .circle2{
+    background: var(--gradient2-card-blue);
+}
+
 .card-orange{
     background: var(--bg-card-orange);
+    box-shadow: 3px 3px 20px lightsalmon;
+}
+.card-orange .circle1{
+    background: var(--gradient1-card-orange);
+}
+.card-orange .circle2{
+    background: var(--gradient2-card-orange);
+}
+
+/* icons - cards */
+.icon-card{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 1rem;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    background-image: linear-gradient(to bottom left, var(--white-opacidade05), var(--white-opacidade01));
+    border: 1px solid var(--white-opacidade05);
+}
+
+/* Circles - cards */
+.circle1, .circle2{
+    border-radius: 100%;
+    width: 12rem;
+    position: absolute;
+}
+.circle1{
+    height: 10rem;
+}
+.circle2{
+    height: 12rem;
+}
+
+.card-green .circle1{
+    bottom: -7rem;
+    left: -2rem;
+}
+.card-green .circle2{
+    bottom: -5rem;
+    left: -1.5rem;
+}
+
+.card-blue .circle1, .card-orange .circle1{
+    bottom: -7rem;
+    left: -4rem;
+}
+
+.card-blue .circle2, .card-orange .circle2{
+    bottom: -5rem;
+    left: -3.5rem;
 }
 
 /* ----------- Gráficos - div 1: ------------ */
