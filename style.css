@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
+:root{
+    --white: #ffffff;
+    --bg-color: #fafbff;
+
+    /* nav - parte 1: */
+    --bg-color-nav1: #0067ff;
+    --gradient-light-nav1: #008df0;
+    --gradient-dark-nav1: #015fe2;
+    --light-icon-nav1: #f4f9fe;
+    --icons-nav1: #66a3ff;
+    --hover-nav1: #1a76ff;
+
+    /* nav - parte 2: */
+    --blue-nav2: #0067ff;
+    --light-blue-nav2: #ecf1ff;
+    --gradient-img-light: #f4fbff;
+    --gradient-img-dark: #cde2ff;
+    --icons-nav2: #bac2d0;
+    --text-nav: #70779a;
+
+    /* Card green: */
+    --bg-card-green: #00d0c2;
+    --gradient1-card-green: #45DDD1;
+    --gradient2-card-green: #24D9CA;
+
+    /* Card blue: */
+    --bg-card-blue: #4B71F0;
+    --gradient1-card-blue: #6D8DF4;
+    --gradient2-card-blue: #607DF2;
+
+
+    /* Card orange: */
+    --bg-card-orange: #EF854B;
+    --gradient1-card-orange: #F29B6E;
+    --gradient2-card-orange: #F0925C;
+}
+
+div{
+    border: 1px solid black;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+}
+
+/* ----------------- Menu: ----------------- */
+nav{
+    display: flex;
+    width: 24%;
+}
+
+.menu-icons{
+    width: 18%;
+}
+
+.menu{
+    width: 82%;
+}
+
+/* ------------------------------------------ */
+
+.container2{
+    width: 76%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 4rem 1rem 4rem;
+    gap: 2rem;
+}
+
+/* ----------------- Header: ---------------- */
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 7rem;
+    border: 1px solid black;
+}
+
+.profile{
+    width: 3rem;
+    height: 3rem;
+}
+
+/* ----------------- Cards: ----------------- */
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ----------- Gráficos - div 1: ------------ */
+
+/* ----------- Gráficos - div 2: ------------ */
+.graficos-div2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div2-parte1{
+    width: 55%;
+}
+
+.div2-parte2{
+    width: 40%;
+}
+
+/* ---------------- Footer: ---------------- */
+footer{
+    border: 1px solid black;
+}
