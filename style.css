@@ -134,6 +134,10 @@ h2{
     font-weight: 600;
 }
 
+.cards p, h1{
+    z-index: 1;
+}
+
 .p1{
     font-size: 1.3rem;
     font-weight: 500;
@@ -151,14 +155,6 @@ h2{
     font-weight: 500;
 }
 
-.text-card{
-    height: 14vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    position: absolute;
-}
-
 /* Cards green, blue e orange */
 .card-green, .card-blue, .card-orange{
     width: 32%;
@@ -167,11 +163,14 @@ h2{
     padding: 2rem;
     position: relative;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card-green{
     background: var(--bg-card-green);
-    box-shadow: 3px 3px 20px lightblue;
+    box-shadow: 3px 3px 30px lightblue;
 }
 .card-green .circle1{
     background: var(--gradient1-card-green);
@@ -182,7 +181,7 @@ h2{
 
 .card-blue{
     background: var(--bg-card-blue);
-    box-shadow: 3px 3px 20px lightblue;
+    box-shadow: 3px 3px 30px lightblue;
 }
 .card-blue .circle1{
     background: var(--gradient1-card-blue);
@@ -193,7 +192,7 @@ h2{
 
 .card-orange{
     background: var(--bg-card-orange);
-    box-shadow: 3px 3px 20px lightsalmon;
+    box-shadow: 3px 3px 30px lightsalmon;
 }
 .card-orange .circle1{
     background: var(--gradient1-card-orange);
