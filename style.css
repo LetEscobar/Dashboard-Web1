@@ -11,6 +11,8 @@
     --light-icon-nav1: #f4f9fe;
     --icons-nav1: #66a3ff;
     --hover-nav1: #1a76ff;
+    --bg-color-icon-nav1: #025fe1;
+
 
     /* nav - parte 2: */
     --blue-nav2: #0067ff;
@@ -68,27 +70,32 @@ nav{
 }
 
 .menu-icons{
-    height: 100%;
+    height: 100vh;
     width: 20%;
     background: var(--bg-color-nav1);
 }
 
 .imenu-icons{
     display: flex;
-    font-size: 3.8rem;
-    width: 4.8rem;
-    height: 4.8rem;
-    padding: 0.5rem;
+    font-size: 2.8rem;
     color: var(--icons-nav1);
+    padding: 0.5rem;
+}
+
+.amenu-icons{
+    padding-bottom: 1.5rem;
 }
 
 .iconshighleft, .amenu-icons{
     display: flex;
-    font-size: 3rem;
-    width: 4.8rem;
-    height: 4.8rem;
+    font-size: 3.5rem;
     color: var(--icons-nav1);
     
+}
+
+.iconshighleft{
+    padding: 0.5rem 0.5rem 0rem 0.2rem;
+    background: var(--bg-color-icon-nav1);
 }
 
 .menu{
@@ -100,7 +107,7 @@ nav{
 
 nav .menu .limenu{
     width: 15rem;
-    padding: 1.5rem;
+    
     transition: 0.2s;
 }
 
