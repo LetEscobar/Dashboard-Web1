@@ -309,14 +309,23 @@ h2{
     left: -3.5rem;
 }
 
-/* ----------- Gr�ficos - div 1: ------------ */
+/* ----------- Graficos - div 1: ------------ */
+.graficos-div1{
+    height: 45vh;
+    padding: 2rem;
+}
 
-/* ----------- Gr�ficos - div 2: ------------ */
+/* ----------- Graficos - div 2: ------------ */
 .graficos-div2{
     display: flex;
     justify-content: space-between;
     height: 43vh;
     gap: 2rem;
+}
+.graficos-div1, .div2-parte1, .div2-parte2{
+    box-shadow: 0px 0px 6px #e7edf5;
+    background: var(--white);
+    border-radius: 1.5rem;
 }
 
 .div2-parte1{
