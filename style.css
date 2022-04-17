@@ -16,6 +16,8 @@
     --light-icon-nav1: #f4f9fe;
     --icons-nav1: #66a3ff;
     --hover-nav1: #1a76ff;
+    --bg-color-icon-nav1: #025fe1;
+
 
     /* nav - parte 2: */
     --blue-nav2: #0067ff;
@@ -73,11 +75,68 @@ nav{
 }
 
 .menu-icons{
-    width: 18%;
+    height: 100vh;
+    width: 20%;
+    background: var(--bg-color-nav1);
+}
+
+.imenu-icons{
+    display: flex;
+    font-size: 2.8rem;
+    color: var(--icons-nav1);
+    padding: 0.5rem;
+}
+
+.amenu-icons{
+    padding-bottom: 1.5rem;
+}
+
+.iconshighleft, .amenu-icons{
+    display: flex;
+    font-size: 3.5rem;
+    color: var(--icons-nav1);
+    
+}
+
+.iconshighleft{
+    padding: 0.5rem 0.5rem 0rem 0.2rem;
+    background: var(--bg-color-icon-nav1);
 }
 
 .menu{
-    width: 82%;
+    display: flex;
+    width: 17rem;
+    gap: 0.3rem;
+    flex-direction: column;
+}
+
+nav .menu .limenu{
+    width: 15rem;
+    
+    transition: 0.2s;
+}
+
+nav .menu .limenu:hover{
+   background:var(--hover-color-light);
+    
+}
+
+.amenu{
+    display:flex;
+    align-items:center;
+    color: var( --text-nav);
+}
+
+.limenu{
+    transition: all .5s;
+    border: 0.5rem solid transparent;
+}
+
+.limenu:hover{
+    background:var(--light-color);
+    cursor: pointer;
+    transition: 0.5s;
+    /* border-left: 0.5rem solid var(--border-hover); */
 }
 
 /* ------------------------------------------ */
@@ -250,19 +309,9 @@ h2{
     left: -3.5rem;
 }
 
-/* ----------- Gráficos - div 1: ------------ */
-.graficos-div1{
-    height: 45vh;
-    padding: 2rem;
-}
+/* ----------- Grï¿½ficos - div 1: ------------ */
 
-.graficos-div1, .div2-parte1, .div2-parte2{
-    background: var(--white);
-    border-radius: 1.5rem;
-    box-shadow: 0px 0px 4px #e5e5e5;
-}
-
-/* ----------- Gráficos - div 2: ------------ */
+/* ----------- Grï¿½ficos - div 2: ------------ */
 .graficos-div2{
     display: flex;
     justify-content: space-between;
