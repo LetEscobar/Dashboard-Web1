@@ -271,16 +271,75 @@ h2{
 }
 
 .div2-parte1{
-    width: 68%;
+    width: 70%;
+    display: flex;
 }
 
 .div2-parte2{
-    width: 32%;
+    width: 30%;
 }
 
 .div2-parte1, .div2-parte2{
     height: 100%;
     padding: 2rem;
+}
+
+.graf{
+    width: 50%;
+    height: 100%;
+}
+
+.linhas{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+h3{
+    color: var(--text-nav);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.text-graf{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-graf p{
+    font-size: 1.2rem;
+    color: var(--icons-nav2);
+}
+.line, .line-color{
+    height: 0.3rem;
+    border-radius: 10rem;
+}
+
+.line{
+    width: 100%;
+    background: #e7edf5;
+    margin-top: 1rem;
+}
+
+.line-color{
+    background: linear-gradient(to right, var(--bg-color-nav1) , var(--gradient-img-dark));
+}
+
+#linha1{
+    width: 32%;
+}
+#linha2{
+    width: 40%;
+}
+#linha3{
+    width: 65%;
+}
+#linha4{
+    width: 18%;
+}
+#linha5{
+    width: 8%;
 }
 
 /* ---------------- Footer: ---------------- */
