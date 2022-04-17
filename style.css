@@ -21,9 +21,11 @@
 
     /* nav - parte 2: */
     --blue-nav2: #0067ff;
+    --blue-nav2-letter: #0363f2;
     --light-blue-nav2: #ecf1ff;
     --gradient-img-light: #f4fbff;
     --gradient-img-dark: #cde2ff;
+    --bg-nav2-hc: #e0ecfc;
     --icons-nav2: #bac2d0;
     --text-nav: #52536c;
 
@@ -76,55 +78,82 @@ nav{
 
 .menu-icons{
     height: 100vh;
-    width: 20%;
+    width: 10%;
     background: var(--bg-color-nav1);
 }
 
 .imenu-icons{
     display: flex;
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     color: var(--icons-nav1);
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 .amenu-icons{
     padding-bottom: 1.5rem;
 }
 
-.iconshighleft, .amenu-icons{
+ .amenu-icons{
     display: flex;
-    font-size: 3.5rem;
-    color: var(--icons-nav1);
+    font-size: 2.5rem;
     
+}
+ .amenu-icons-ihl{
+    display: flex;
+    font-size: 2.5rem;
+    color:var(--light-icon-nav1);
 }
 
 .iconshighleft{
-    padding: 0.5rem 0.5rem 0rem 0.2rem;
+    padding: 1rem 0.5rem 1rem 1rem;
     background: var(--bg-color-icon-nav1);
+}
+
+/* ----------------- Nav 2 : ----------------- */
+
+.menu, h3{
+    font-size: 1.4rem;
 }
 
 .menu{
     display: flex;
-    width: 17rem;
+    width: 100%;
     gap: 0.3rem;
     flex-direction: column;
 }
 
-nav .menu .limenu{
-    width: 15rem;
-    
-    transition: 0.2s;
+.menu, .ulmenu{
+    margin: 2rem;
 }
-
-nav .menu .limenu:hover{
-   background:var(--hover-color-light);
-    
+/* ---------health care---------*/
+.amenu-hc{
+    padding: 2rem 1rem;
+    display:flex;
+    align-items:center;
+    color: var( --blue-nav2-letter);
+    background: var( --bg-nav2-hc);
+    border-radius: 1rem;
+}
+.imenu-hc{
+    padding-right: 1.5rem;
+    font-size: 2rem;
 }
 
 .amenu{
     display:flex;
     align-items:center;
     color: var( --text-nav);
+}
+
+.imenu{
+    color: var( --icons-nav2);
+    padding-right: 1.5rem;
+    font-size: 2rem;
+}
+.amenu-ol{
+    margin-left: 3rem;
+    display: flex;
+    color: var( --icons-nav2);
 }
 
 .limenu{
