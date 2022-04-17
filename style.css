@@ -286,5 +286,10 @@ h2{
 /* ---------------- Footer: ---------------- */
 footer{
     margin-top: 4rem;
-    border: 1px solid black;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--icons-nav2);
 }
