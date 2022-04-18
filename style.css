@@ -78,7 +78,7 @@ nav{
 
 .menu-icons{
     height: 100vh;
-    width: 10%;
+    width: 4rem;
     background: var(--bg-color-nav1);
 }
 
@@ -86,11 +86,11 @@ nav{
     display: flex;
     font-size: 2.5rem;
     color: var(--icons-nav1);
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .amenu-icons{
-    padding-bottom: 1.5rem;
+    padding-bottom:2rem;
 }
 
  .amenu-icons{
@@ -105,18 +105,19 @@ nav{
 }
 
 .iconshighleft{
-    padding: 1rem 0.5rem 1rem 1rem;
+    padding: 1rem 0.5rem 1rem 0.5rem;
     background: var(--bg-color-icon-nav1);
+    margin-bottom: 2rem;
 }
 
 /* ----------------- Nav 2 : ----------------- */
 
 .menu, h3{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 .menu{
-    display: flex;
+    /* display: flex; */
     width: 100%;
     gap: 0.3rem;
     flex-direction: column;
@@ -133,6 +134,7 @@ nav{
     color: var( --blue-nav2-letter);
     background: var( --bg-nav2-hc);
     border-radius: 1rem;
+    margin-bottom: 3.8rem;
 }
 .imenu-hc{
     padding-right: 1.5rem;
@@ -150,28 +152,88 @@ nav{
     padding-right: 1.5rem;
     font-size: 2rem;
 }
-.amenu-ol{
-    margin-left: 3rem;
-    display: flex;
-    color: var( --icons-nav2);
-}
 
 .limenu{
     transition: all .5s;
     border: 0.5rem solid transparent;
+    margin: 2rem;
 }
 
-.limenu:hover{
+/* .limenu:hover{
     background:var(--light-color);
     cursor: pointer;
     transition: 0.5s;
-    /* border-left: 0.5rem solid var(--border-hover); */
+    /* border-left: 0.5rem solid var(--border-hover); 
+} */
+
+/*-----------------------sub topico-------------------------*/
+
+.amenu-ol{
+    margin-left:3rem;
+    margin-top: 2rem;
+    display: flex;
+    color: var( --icons-nav2);
+}
+
+.imenu-ol{
+    padding-right: 1.5rem;
+    font-size: 2rem;
+}
+
+/*----------------------imagem------------------------*/
+
+.image-nav{
+    width: 25rem;
+    border-radius: 2rem;
+    margin: 20% 7%;
+    background: linear-gradient(var(--gradient-img-light), var(--gradient-img-dark))
+}
+
+
+.image-i{
+    
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+.image-i h4{
+    margin: 2rem 1rem 1rem 4.5rem;
+}
+
+.image-i h5{
+    margin: 1rem 1rem 1rem 5rem;
+}
+
+.img-nav{
+    width: 90%;
+    padding: 1rem;   
+}
+
+.hospitalprofile{
+    width: 100%;
+    padding: 2rem 5rem;
+    border-top: 1px solid var(--white);
+    color: var(--bg-card-blue);
+}
+/*--------------------configuração------------------------*/
+.config-nav{
+    border-top: 1px solid var(--icons-nav2);
+    padding: 2rem;
+}
+.aconfig{
+    display: flex;
+    color: var( --icons-nav2);
+}
+
+.iconfig{
+    padding-right: 1.5rem;
+    font-size: 2rem;
 }
 
 /* ------------------------------------------ */
 
 .container2{
-    width: 75%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     padding: 2rem 4.5rem 1rem 4.5rem;
