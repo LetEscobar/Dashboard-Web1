@@ -78,7 +78,6 @@ nav{
 }
 
 .menu-icons{
-    height: 100vh;
     width: 4rem;
     background: var(--bg-color-nav1);
 }
@@ -265,7 +264,7 @@ nav .menu .limenu-ol:hover{
 /*--------------------configuração------------------------*/
 .config-nav{
     border-top: 1px solid var(--icons-nav2);
-    padding: 2rem;
+    padding: 2rem 2rem 0 2rem;
 }
 .aconfig{
     display: flex;
