@@ -21,11 +21,14 @@
 
     /* nav - parte 2: */
     --blue-nav2: #0067ff;
+    --blue-nav2-letter: #0363f2;
     --light-blue-nav2: #ecf1ff;
     --gradient-img-light: #f4fbff;
     --gradient-img-dark: #cde2ff;
+    --bg-nav2-hc: #e0ecfc;
     --icons-nav2: #bac2d0;
     --text-nav: #52536c;
+    --color-hover-nav2: #0068FF;
 
     /* Card green: */
     --bg-card-green: #00d0c2;
@@ -76,49 +79,67 @@ nav{
 
 .menu-icons{
     height: 100vh;
-    width: 20%;
+    width: 4rem;
     background: var(--bg-color-nav1);
 }
 
 .imenu-icons{
     display: flex;
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     color: var(--icons-nav1);
     padding: 0.5rem;
 }
 
 .amenu-icons{
-    padding-bottom: 1.5rem;
+    padding-bottom:2rem;
 }
 
-.iconshighleft, .amenu-icons{
+ .amenu-icons{
     display: flex;
-    font-size: 3.5rem;
-    color: var(--icons-nav1);
+    font-size: 2.5rem;
     
+}
+ .amenu-icons-ihl{
+    display: flex;
+    font-size: 2.5rem;
+    color:var(--light-icon-nav1);
 }
 
 .iconshighleft{
-    padding: 0.5rem 0.5rem 0rem 0.2rem;
+    padding: 1rem 0.5rem 1rem 0.5rem;
     background: var(--bg-color-icon-nav1);
+    margin-bottom: 2rem;
+}
+
+/* ----------------- Nav 2 : ----------------- */
+
+.menu, h3{
+    font-size: 1.5rem;
 }
 
 .menu{
-    display: flex;
-    width: 17rem;
+    /* display: flex; */
+    width: 100%;
     gap: 0.3rem;
     flex-direction: column;
 }
 
-nav .menu .limenu{
-    width: 15rem;
-    
-    transition: 0.2s;
+.menu, .ulmenu{
+    margin: 2rem;
 }
-
-nav .menu .limenu:hover{
-   background:var(--hover-color-light);
-    
+/* ---------health care---------*/
+.amenu-hc{
+    padding: 2rem 1rem;
+    display:flex;
+    align-items:center;
+    color: var( --blue-nav2-letter);
+    background: var( --bg-nav2-hc);
+    border-radius: 1rem;
+    margin-bottom: 3.8rem;
+}
+.imenu-hc{
+    padding-right: 1.5rem;
+    font-size: 2rem;
 }
 
 .amenu{
@@ -127,22 +148,139 @@ nav .menu .limenu:hover{
     color: var( --text-nav);
 }
 
+.imenu{
+    color: var( --icons-nav2);
+    padding-right: 1.5rem;
+    font-size: 2rem;
+}
+
 .limenu{
     transition: all .5s;
     border: 0.5rem solid transparent;
+    margin: 2rem;
+}
+
+nav .menu .limenu{
+    width: 20rem;
+    transition: 0.2s;
+    border-radius: 1rem;
 }
 
 .limenu:hover{
-    background:var(--light-color);
     cursor: pointer;
     transition: 0.5s;
-    /* border-left: 0.5rem solid var(--border-hover); */
+}
+ 
+.limenu:hover h3{
+    color:var(--blue-nav2-letter);
+}
+
+.limenu:hover i{
+    color:var(--blue-nav2-letter);
+}
+/*------------------------hover ol-----------------------------*/
+
+nav .menu .limenu-ol{
+    width: 15rem;
+    padding: 1rem;
+    transition: 0.2s;
+    border-radius: 1rem;
+}
+
+nav .menu .limenu-ol:hover{
+   background:var(--bg-color-icon-nav1);
+    
+}
+
+.limenu-ol:hover{
+    background:var(--bg-color-icon-nav1);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+ .limenu-ol .amenu-ol .imenu-ol:rover{
+    background:var(--bg-color-icon-nav1);
+}
+ 
+.limenu-ol:hover h3{
+    color:var(--light-blue-nav2);
+}
+
+.limenu-ol:hover i{
+    color:var(--light-blue-nav2);
+}
+
+/*-----------------------sub topico-------------------------*/
+
+.amenu-ol{
+    display: flex;
+    color: var( --icons-nav2);
+}
+
+.imenu-ol{
+    padding-right: 1.5rem;
+    font-size: 2rem;
+}
+
+.olmenu{
+    padding-left:3rem;
+    padding-top: 1rem;
+}
+
+/*----------------------imagem------------------------*/
+
+.image-nav{
+    width: 25rem;
+    border-radius: 2rem;
+    margin: 20% 7%;
+    background: linear-gradient(var(--gradient-img-light), var(--gradient-img-dark))
+}
+
+
+.image-i{
+    
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+.image-i h4{
+    margin: 2rem 1rem 1rem 4.5rem;
+}
+
+.image-i h5{
+    margin: 1rem 1rem 1rem 5rem;
+}
+
+.img-nav{
+    width: 90%;
+    padding: 1rem;   
+}
+
+.hospitalprofile{
+    width: 100%;
+    padding: 2rem 5rem;
+    border-top: 1px solid var(--white);
+    color: var(--bg-card-blue);
+}
+/*--------------------configuração------------------------*/
+.config-nav{
+    border-top: 1px solid var(--icons-nav2);
+    padding: 2rem;
+}
+.aconfig{
+    display: flex;
+    color: var( --icons-nav2);
+}
+
+.iconfig{
+    padding-right: 1.5rem;
+    font-size: 2rem;
 }
 
 /* ------------------------------------------ */
 
 .container2{
-    width: 75%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     padding: 2rem 4.5rem 1rem 4.5rem;
