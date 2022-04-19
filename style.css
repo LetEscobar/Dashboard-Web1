@@ -165,16 +165,16 @@ nav .menu .limenu{
     border-radius: 1rem;
 }
 
-.limenu:hover{
+.amenu:hover{
     cursor: pointer;
     transition: 0.5s;
 }
  
-.limenu:hover h3{
+.amenu:hover h3{
     color:var(--blue-nav2-letter);
 }
 
-.limenu:hover i{
+.amenu:hover i{
     color:var(--blue-nav2-letter);
 }
 /*------------------------hover ol-----------------------------*/
