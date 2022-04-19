@@ -159,7 +159,26 @@ nav{
     border: 0.5rem solid transparent;
     margin: 2rem;
 }
-/*------------------------hover-----------------------------*/
+
+nav .menu .limenu{
+    width: 20rem;
+    transition: 0.2s;
+    border-radius: 1rem;
+}
+
+.limenu:hover{
+    cursor: pointer;
+    transition: 0.5s;
+}
+ 
+.limenu:hover h3{
+    color:var(--blue-nav2-letter);
+}
+
+.limenu:hover i{
+    color:var(--blue-nav2-letter);
+}
+/*------------------------hover ol-----------------------------*/
 
 nav .menu .limenu-ol{
     width: 15rem;
