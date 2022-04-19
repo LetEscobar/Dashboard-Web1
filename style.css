@@ -231,23 +231,27 @@ nav .menu .limenu-ol:hover{
 .image-nav{
     width: 25rem;
     border-radius: 2rem;
-    margin: 20% 7%;
+    margin: 20% 0 20% 0;
     background: linear-gradient(var(--gradient-img-light), var(--gradient-img-dark))
 }
 
-
 .image-i{
-    
     width: 100%;
     padding-bottom: 2rem;
 }
 
 .image-i h4{
     margin: 2rem 1rem 1rem 4.5rem;
+    color: var(--text-nav);
 }
 
 .image-i h5{
     margin: 1rem 1rem 1rem 5rem;
+    color: var(--text-nav);
+}
+
+.image-i h3{
+    color: var(--bg-card-blue);
 }
 
 .img-nav{
@@ -256,7 +260,6 @@ nav .menu .limenu-ol:hover{
 }
 
 .hospitalprofile{
-    width: 100%;
     padding: 2rem 5rem;
     border-top: 1px solid var(--white);
     color: var(--bg-card-blue);
@@ -492,9 +495,11 @@ h2{
 }
 
 h3{
-    color: var(--text-nav);
     font-size: 1.3rem;
     font-weight: 600;
+}
+.container2 h3, .aconfig h3{
+    color: var(--text-nav);
 }
 
 .text-graf{
