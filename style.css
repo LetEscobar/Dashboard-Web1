@@ -194,8 +194,6 @@ nav .menu .limenu-ol:hover{
 /*-----------------------sub topico-------------------------*/
 
 .amenu-ol{
-    padding-left:3rem;
-    padding-top: 1rem;
     display: flex;
     color: var( --icons-nav2);
 }
@@ -203,6 +201,11 @@ nav .menu .limenu-ol:hover{
 .imenu-ol{
     padding-right: 1.5rem;
     font-size: 2rem;
+}
+
+.olmenu{
+    padding-left:3rem;
+    padding-top: 1rem;
 }
 
 /*----------------------imagem------------------------*/
