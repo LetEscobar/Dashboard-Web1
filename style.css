@@ -45,6 +45,13 @@
     --bg-card-orange: #EF854B;
     --gradient1-card-orange: #F29B6E;
     --gradient2-card-orange: #F0925C;
+
+    /*Gráfico 1: */
+    --bg-bar-right: #04d1c1;
+    --bg-bar-left: #027cf8;
+    --bg-line: #ed7e42;
+    --bg-notification: #2f3a6e;
+    --letter-blue: #3b83d6;
 }
 
 /* div{
