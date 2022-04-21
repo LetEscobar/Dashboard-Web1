@@ -462,6 +462,108 @@ h2{
     padding: 2rem;
 }
 
+.div1-parte1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns-div1{
+    display: flex;
+    border-radius: 0.5rem;
+}
+
+.btns-div1 div{
+    width: max-content;
+    padding: 0.7rem 1.2rem;
+    color: var(--bg-bar-left);
+    font-weight: 400;
+}
+
+.btns-div1 div:not(.btn-right){
+    border: 1px solid var(--icons-nav2);
+    border-width:1px 0 1px 1px;
+    background: var(--bg-color);
+}
+
+.btns-div1 div:hover{
+    cursor: pointer;
+    border-radius: 0.5rem;
+    border: 1px solid var(--bg-bar-left);
+    box-shadow: 0px 0px 6px var(--icons-nav2);
+    font-weight: 600;
+    background: var(--white);
+}
+
+.btn-left{
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.btn-right{
+    border-radius: 0 0.5rem 0.5rem 0;
+    border: 1px solid var(--icons-nav2);
+    border-width:1px 1px 1px 1px;
+}
+
+
+.div1-parte3{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div1-parte3 h4{
+    color: var(--text-nav);
+}
+
+.table-parte1, .table-parte3{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 3.5rem;
+}
+
+.bar-right, .bar-left{
+    width: 2rem;
+    border-radius: 0.3rem 0.3rem 0 0;
+}
+
+.bar-left{
+    background: var(--bg-bar-left);
+    height: 10rem;
+}
+
+.bar-right{
+    background: var(--bg-bar-right);
+    height: 15rem;
+}
+
+.bars{
+    display: flex;
+    gap: 0.2rem;
+    align-items: flex-end;
+}
+
+td{
+    padding: 0 1.3rem;
+}
+
+.grafico-bars{
+    height: 100%;
+    display: flex;
+    gap: 2.8rem;
+}
+
+.table-parte2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 3rem 0;
+    align-items: center;
+    gap: 1rem;
+}
+
 /* ----------- Graficos - div 2: ------------ */
 .graficos-div2{
     display: flex;
