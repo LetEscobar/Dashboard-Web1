@@ -310,6 +310,7 @@ header{
     /* border: 1px solid black; */
     align-items: center;
     padding-top: 0.5rem;
+    color: var(--text-nav);
 }
 
 .profile{
@@ -325,7 +326,6 @@ header{
 }
 
 h2{
-    color: var(--text-nav);
     font-size: 1.8rem;
     font-weight: 600;
 }
