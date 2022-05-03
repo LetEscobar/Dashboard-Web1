@@ -409,7 +409,57 @@
           </div>
         </div>
         <div class="forms">
-          <div class="form1">Formulario 1</div>
+          <div class="form1">
+            <table class="form1Cliete">
+              <h1>CLIENTE</h1>
+              <tr>
+                <td>Nome: <input type="text" /></td>
+                <td>Email: <input type="email" /></td>
+                <td>Data de Nascimento: <input type="date" /></td>
+                <td>CPF OU CNPJ: <input type="radio" /></td>
+                <td><input type="text" /></td>
+              </tr>
+              <tr>
+                <td>Rua:</td>
+                <td><input type="text" name="txtRua" /></td>
+                <td>Numero:</td>
+                <td>
+                  <input type="number" style="width: 50px" name="txtNum" />
+                </td>
+              </tr>
+
+              <tr>
+                <td>UF:</td>
+                <td>
+                  <select name="uF">
+                    <option value="uF" selected>Estado</option>
+                    <option value="sãoPaulo">São Paulo</option>
+                    <option value="matoGrossodoSul">Mato Grosso do Sul</option>
+                    <option value="goias">Goias</option>
+                    <option value="pernambuco">Pernambuco</option>
+                  </select>
+                </td>
+                <td>Cidade:</td>
+                <td>
+                  <select name="cidade">
+                    <option value="cidade" selected>Cidade</option>
+                    <option value="castilho">Castilho</option>
+                    <option value="três Lagoas">Três Lagoas</option>
+                    <option value="goiania">Goiania</option>
+                    <option value="recife">Recife</option>
+                  </select>
+                </td>
+              </tr>
+            </table>
+
+            <!-- nome 
+
+                data de nascimento
+
+                cpf ou cnpj (radio button + caixa de entrada de dados)
+
+                endereço, cep, uf -->
+          </div>
           <div class="form2">Formulario 2</div>
           <div class="form3">Formulario 3</div>
         </div>
