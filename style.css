@@ -744,11 +744,17 @@ h3 {
     width: 1rem;
 }
 
-/* -------------- Frmulários: -------------- */
+/* -------------- Frmulï¿½rios: -------------- */
 .div-forms {
     box-shadow: 0px 0px 6px #e7edf5;
     background: var(--white);
     border-radius: 1.5rem;
+}
+
+.div-cliente {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .div-estoque {
@@ -776,6 +782,11 @@ form .formulario {
 
 .salvar {
     width: 100%;
+}
+
+form .formulario-radio{
+  display: flex;
+  gap: 1rem;
 }
 
 /* ---------------- Footer: ---------------- */
