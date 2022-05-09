@@ -17,6 +17,7 @@
     --icons-nav1: #66a3ff;
     --hover-nav1: #1a76ff;
     --bg-color-icon-nav1: #025fe1;
+    --bg-color-icon-nav1-hover: #1975ff;
 
     /* nav - parte 2: */
     --blue-nav2: #0067ff;
@@ -125,6 +126,10 @@ h3 {
     justify-content: space-between;
 }
 
+.icones-graf h4 {
+    font-size: 1.3rem;
+}
+
 .menu {
     /* display: flex; */
     width: 100%;
@@ -136,6 +141,12 @@ h3 {
 .ulmenu {
     margin: 2rem;
 }
+
+#open-menu h3,
+#open-menu i {
+    color: var(--blue-nav2-letter);
+}
+
 /* ---------health care---------*/
 .amenu-hc {
     padding: 2rem 1rem;
@@ -155,6 +166,23 @@ h3 {
     display: flex;
     align-items: center;
     color: var(--text-nav);
+}
+
+.limenu-ol a {
+    display: flex;
+    align-items: center;
+}
+
+.limenu-ol#cliente a {
+    color: var(--bg-color-icon-nav1);
+}
+
+.limenu-ol#fornecedor a {
+    color: var(--bg-color-icon-nav1);
+}
+
+.limenu-ol#estoque a {
+    color: var(--bg-color-icon-nav1);
 }
 
 .imenu {
@@ -194,6 +222,12 @@ nav .menu .limenu-ol {
     padding: 1rem;
     transition: 0.2s;
     border-radius: 1rem;
+}
+
+nav .menu-icons a i:hover:not(.ri-collage-fill) {
+    background: var(--bg-color-icon-nav1-hover);
+    border-radius: 1rem;
+    color: white;
 }
 
 nav .menu .limenu-ol:hover {
@@ -284,6 +318,7 @@ nav .menu .limenu-ol:hover {
 .aconfig {
     display: flex;
     color: var(--icons-nav2);
+    align-items: center;
 }
 
 .iconfig {
@@ -300,6 +335,10 @@ nav .menu .limenu-ol:hover {
     padding: 2rem 4.5rem 1rem 4.5rem;
     gap: 2rem;
     background: var(--bg-color);
+}
+
+.container2.content-index {
+    justify-content: space-between;
 }
 
 /* ----------------- Header: ---------------- */
@@ -740,7 +779,8 @@ h4 {
 .icones-graficosradar,
 h3 {
     font-size: 1.2rem;
-    color: var(--icons-nav2);
+    display: flex;
+    gap: 0.5rem;
 }
 .icones-radar {
     width: 1rem;
@@ -797,7 +837,7 @@ footer {
     margin-bottom: 0.5rem;
     display: flex;
     justify-content: center;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 600;
     color: var(--icons-nav2);
 }
