@@ -61,6 +61,7 @@
     margin: 0;
     list-style: none;
     text-decoration: none;
+    outline: none;
 }
 
 body {
@@ -478,6 +479,7 @@ h1 {
 .div1-parte1 {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 0.5rem;
 }
 
 .btns-div1 {
@@ -752,9 +754,9 @@ h3 {
 }
 
 .div-cliente {
-  padding: 2rem;
-  display: flex;
-  justify-content: space-evenly;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .div-estoque {
@@ -784,9 +786,9 @@ form .formulario {
     width: 100%;
 }
 
-form .formulario-radio{
-  display: flex;
-  gap: 1rem;
+form .formulario-radio {
+    display: flex;
+    gap: 1rem;
 }
 
 /* ---------------- Footer: ---------------- */
