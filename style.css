@@ -75,13 +75,19 @@ html {
 
 .container {
     height: 100%;
-    display: flex;
+    display: grid;
+    grid-template-areas: 'nav content';
+}
+#nav {
+    grid-area: nav;
+}
+#content {
+    grid-area: content;
 }
 
-/* ----------------- Menu: ----------------- */
 nav {
     display: flex;
-    width: 25%;
+    width: 90%;
 }
 
 .menu-icons {
@@ -314,6 +320,7 @@ nav .menu .limenu-ol:hover {
 .config-nav {
     border-top: 1px solid var(--icons-nav2);
     padding: 2rem 2rem 0 2rem;
+    width: 90%;
 }
 .aconfig {
     display: flex;
@@ -328,16 +335,38 @@ nav .menu .limenu-ol:hover {
 
 /* ------------------------------------------ */
 
-.container2 {
+.content {
     width: 95%;
-    display: flex;
-    flex-direction: column;
+    display: grid;
     padding: 2rem 4.5rem 1rem 4.5rem;
     gap: 2rem;
     background: var(--bg-color);
+
+    grid-template-areas:
+        'header'
+        'cards'
+        'graficos1'
+        'graficos2'
+        'footer';
 }
 
-.container2.content-index {
+#header {
+    grid-area: header;
+}
+#cards {
+    grid-area: cards;
+}
+#graficos1 {
+    grid-area: graficos1;
+}
+#graficos2 {
+    grid-area: graficos2;
+}
+#footer {
+    grid-area: footer;
+}
+
+.content.content-index {
     justify-content: space-between;
 }
 
@@ -672,7 +701,7 @@ h3 {
     font-size: 1.3rem;
     font-weight: 600;
 }
-.container2 h3,
+.content h3,
 .aconfig h3 {
     color: var(--text-nav);
 }
@@ -722,7 +751,7 @@ h3 {
     width: 8%;
 }
 
-/*-----------------------Gráfico pizza--------------------------*/
+/*-----------------------Grï¿½fico pizza--------------------------*/
 
 .graficopizza {
     width: 50%;
