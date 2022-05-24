@@ -774,7 +774,7 @@ h4 {
 .icon-grafradar {
     display: flex;
     padding: 1rem;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .icones-graficosradar {
     display: flex;
