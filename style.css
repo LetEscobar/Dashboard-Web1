@@ -45,17 +45,13 @@
     --gradient1-card-orange: #f29b6e;
     --gradient2-card-orange: #f0925c;
 
-    /*GrÃ¡fico 1: */
+    /*Gráfico 1: */
     --bg-bar-right: #04d1c1;
     --bg-bar-left: #027cf8;
     --bg-line: #ed7e42;
     --bg-notification: #2f3a6e;
     --letter-blue: #3b83d6;
 }
-
-/* div{
-    border: 1px solid black;
-} */
 
 * {
     padding: 0;
@@ -77,9 +73,11 @@ html {
     height: 100%;
     display: grid;
     grid-template-areas: 'nav content';
+    background: var(--bg-color);
 }
 #nav {
     grid-area: nav;
+    background-color: var(--white);
 }
 #content {
     grid-area: content;
@@ -316,7 +314,7 @@ nav .menu .limenu-ol:hover {
     border-top: 1px solid var(--white);
     color: var(--bg-card-blue);
 }
-/*--------------------configuraÃ§Ã£o------------------------*/
+/*--------------------configuração------------------------*/
 .config-nav {
     border-top: 1px solid var(--icons-nav2);
     padding: 2rem 2rem 0 2rem;
@@ -338,9 +336,8 @@ nav .menu .limenu-ol:hover {
 .content {
     width: 95%;
     display: grid;
-    padding: 2rem 4.5rem 1rem 4.5rem;
+    padding-top: 2rem;
     gap: 2rem;
-    background: var(--bg-color);
 
     grid-template-areas:
         'header'
@@ -751,7 +748,7 @@ h3 {
     width: 8%;
 }
 
-/*-----------------------Grï¿½fico pizza--------------------------*/
+/*-----------------------Gr?fico pizza--------------------------*/
 
 .graficopizza {
     width: 50%;
@@ -815,7 +812,7 @@ h3 {
     width: 1rem;
 }
 
-/* -------------- Frmulï¿½rios: -------------- */
+/* -------------- Frmul?rios: -------------- */
 .div-forms {
     box-shadow: 0px 0px 6px #e7edf5;
     background: var(--white);
