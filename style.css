@@ -792,7 +792,7 @@ h4 {
 .icon-grafradar {
     display: flex;
     padding: 1rem;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .icones-graficosradar {
     display: flex;
@@ -867,7 +867,7 @@ footer {
 @media (max-width: 390px) {
     /* reset - resetando os itens */
     nav#nav .menu * {
-        width: 390px;;
+        width: 390px;
         margin-right: 1rem;
         visibility: hidden;
     }
@@ -924,6 +924,68 @@ footer {
     }
     nav#nav {
         background: var(--bg-color);
+    }
+
+    .container{
+        width: 820px;
+        /* height: 1180px; */
+    }
+
+    h3{
+        font-size: 1.5rem;
+    }
+
+    header{
+        width: 90vw;
+    }
+
+    .content .cards{
+        width: 90vw;
+        /* height: 50vh; */
+
+    }
+    .content{
+        width: 95vw;
+    }
+
+    .card-green, .card-blue, .card-orange{
+        width: 90%;
+        height: 10vh;
+    }
+
+    .graficos-div1{
+        width: 78%;
+    }
+
+    .div1-parte3 .grafico-bars{
+        width: 90%;
+    }
+
+    .graficos-div2{
+        flex-direction: column;
+    }
+
+    .graficos-div2 .div2-parte1{
+        width: 78%;
+        justify-content: space-between;
+    }
+    .graficos-div2 .div2-parte2{
+        width: 78%;
+    }
+
+    .graficoradar{
+        width: 50%;
+    }
+
+    .div2-parte1 .graf-pizza{
+        align-items: center;
+        width: 50%;
+        padding-top:1rem;
+    }
+
+
+    #footer{
+        width: 100vw;
     }
 }
 
