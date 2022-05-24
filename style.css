@@ -45,7 +45,7 @@
     --gradient1-card-orange: #f29b6e;
     --gradient2-card-orange: #f0925c;
 
-    /*Gráfico 1: */
+    /*Grï¿½fico 1: */
     --bg-bar-right: #04d1c1;
     --bg-bar-left: #027cf8;
     --bg-line: #ed7e42;
@@ -309,7 +309,7 @@ nav .menu .limenu-ol:hover {
     border-top: 1px solid var(--white);
     color: var(--bg-card-blue);
 }
-/*--------------------configuração------------------------*/
+/*--------------------configuraï¿½ï¿½o------------------------*/
 .config-nav {
     border-top: 1px solid var(--icons-nav2);
     padding: 2rem 2rem 0 2rem;
@@ -791,7 +791,7 @@ h4 {
 
 .icon-grafradar {
     display: flex;
-    padding-inline: 1rem;
+    padding: 1rem;
     justify-content: space-between;
 }
 .icones-graficosradar {
@@ -867,12 +867,52 @@ footer {
 @media (max-width: 390px) {
     /* reset - resetando os itens */
     nav#nav .menu * {
-        width: 0;
+        width: 390px;;
         margin-right: 1rem;
         visibility: hidden;
     }
     nav#nav {
         background: var(--bg-color);
+    }
+
+    header{
+        width: 85vw;
+    }
+
+    .cards, .div2-parte1, .graficos-div2{
+        flex-direction: column;
+    }
+
+    .content .cards{
+        width: 75vw;
+        height: 50vh;
+
+    }
+
+    .card-green, .card-blue, .card-orange{
+        width: 100%;
+    }
+
+
+    .div2-parte1, .div2-parte2{
+        width: 75vw;
+    }
+
+    .grafico-pizza{
+        padding: 2rem;
+    }
+
+    .graf-radar{
+        padding-bottom: 2rem;
+    }
+
+    .linhas{
+        padding: 1rem;
+        width: 75vw;
+    }
+
+    #footer{
+        width: 80vw;
     }
 }
 
