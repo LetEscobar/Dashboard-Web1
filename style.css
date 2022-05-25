@@ -834,7 +834,7 @@ footer {
     }
 
     header {
-        width: 85vw;
+        width: 75vw;
     }
 
     .cards,
@@ -844,8 +844,12 @@ footer {
     }
 
     .content .cards {
-        width: 75vw;
+        width: 70vw;
         height: 50vh;
+    }
+
+    .content {
+        width: 100%;
     }
 
     .card-green,
@@ -885,6 +889,13 @@ footer {
         font-weight: 300;
     }
 
+    #graficos1 {
+        width: 70vw;
+    }
+    #graficos2 {
+        width: 74vw;
+    }
+
     .grafico-pizza {
         padding: 2rem;
     }
@@ -893,8 +904,8 @@ footer {
         width: 100%;
     }
 
-    .linhas {
-        width: 75vw;
+    .graf div.linhas {
+        width: 70vw;
     }
 
     .graf-radar {
@@ -903,6 +914,10 @@ footer {
 
     #footer {
         width: 80vw;
+    }
+
+    img.graficobarra {
+        width: 70vw;
     }
 }
 
