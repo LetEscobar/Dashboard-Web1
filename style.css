@@ -788,30 +788,7 @@ h3 {
     width: 1rem;
 }
 
-/* -------------- Frmul?rios: -------------- */
-.div-forms {
-    box-shadow: 0px 0px 6px #e7edf5;
-    background: var(--white);
-    border-radius: 1.5rem;
-}
-
-.div-cliente {
-    padding: 2rem;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.div-estoque {
-    padding: 2rem 20rem;
-    display: flex;
-    justify-content: space-between;
-}
-
-.div-fornecedor {
-    padding: 2rem;
-    display: flex;
-    justify-content: space-between;
-}
+/* -------------- Frmulários: -------------- */
 
 form {
     display: flex;
